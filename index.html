@@ -1,24 +1,341 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Toilet</title>
-<html>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" as="style" crossorigin 
+href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
 </head>
 
 <body>
 
-<h1>Happy Toilet</h1>
-<h5>AI 데이터 분석 기술이 적용된 실시간 위생·안전 모니터링 및 리포팅 기능의 시민 참여형 공공화장실 관리 플랫폼</h5>
-<ul>
-    <li><a href="./css/사업개요.html" target="_self">사업개요</a></li>
-    <li><a href="./css/앱.html" target="_self"> Application</a></li>
-    <li><a href="./css/계약현황.html" target="_self">계약 현황</a></li>
-    
-</ul>
+
+<header class="header">
+    <img src="./image/character.png" alt="캐릭터" class="logo">
+    <h1>Happy Toilet</h1>
+</header>
+<nav class="top-nav">
+  <a href="#problem-solution">Problem</a>
+  <a href="#business-model">Business Model</a>
+  <a href="#market-size">Market Size</a>
+  <a href="#how-it-works">How It Works</a>
+  <a href="#competitive">Competitive</a>
+  <a href="#roadmap">Roadmap</a>
+  <a href="#team">Team</a>
+</nav>
+
+<section class="hero">
+    <h2 class = "hero-title"> 시민 참여 데이터 기반 공중화장실 통합 관리 솔루션</h2>
+    <p class=""hero-desc>QR/NFC 방문 인증 리뷰 + AI 분석으로 위생·안전 지표</p>
+
+
+<section class="menu">
+  <div class="card"><a href="./css/사업개요.html">사업개요</a></div>
+  <div class="card"><a href="./css/앱.html">Application</a></div>
+  <div class="card"><a href="./css/계약현황.html">계약 현황</a></div>
+</section>
+  
+
+<section id="problem-solution" class="problem-solution">
+<h3 class="ps-title">Problem → Solution</h3>
+  <p class="ps-desc">
+    공공화장실 관리의 한계를 데이터 기반 솔루션으로 해결합니다.
+  </p>
+  <div class="ps-grid">
+
+  </div>
+  <div class="problem">
+    <h2>Problem</h2>
     <p>
-        <img src="./image/character.jpg" width = "20%" alt = "sample image"><br>
+관리 사각지대 존재 <br>민원 사후 대응 중심 <br>데이터 신뢰도 부족 <br>
     </p>
+  </div>
+
+  <div class="solution">
+    <h2>Solution</h2>
+    <p>
+      실방문 인증 수집<br>AI 기반 자동 정제<br>지수화 대시보드 제공<br>
+    </p>
+  </div>
+
+</section>
+
+<section id="business-model" class="bm">
+  <h3 class="section-title">Business Model</h3>
+  <p class="section-desc">B2G 구독형 SaaS + B2B 시설관리 분석 리포트로 확장</p>
+
+  <div class="bm-grid">
+
+    <div class="bm-card">
+      <div class="bm-tag">B2G</div>
+      <h4>지자체 / 공공기관</h4>
+      <ul>
+        <li>위생·안전 지수 대시보드</li>
+        <li>민원/리스크 조기 감지</li>
+        <li>월/분기/연간 행정 리포트</li>
+      </ul>
+      <div class="bm-price">연간 구독: <b>4,500만원</b></div>
+    </div>
+
+    <div class="bm-card">
+      <div class="bm-tag">B2B</div>
+      <h4>민간 청소·시설관리 업체</h4>
+      <ul>
+        <li>관리 성과 분석(전/후 비교)</li>
+        <li>계약 근거 데이터(리포트)</li>
+        <li>현장 이슈 우선순위 추천</li>
+      </ul>
+      <div class="bm-price">리포트/구독: <b>커스텀</b></div>
+    </div>
+
+    <div class="bm-card">
+      <div class="bm-tag">Data</div>
+      <h4>데이터/캠페인 (확장)</h4>
+      <ul>
+        <li>관광·안전 인사이트(지역 단위)</li>
+        <li>화장실 개선 캠페인/스폰서</li>
+        <li>스마트시티/ODA 연계</li>
+      </ul>
+      <div class="bm-price">프로젝트형: <b>협의</b></div>
+    </div>
+
+  </div>
+</section>
+
+<section id="market-size" class="market">
+  <h3 class="section-title">Market Size (TAM / SAM / SOM)</h3>
+  <p class="section-desc">
+    공공화장실 관리 시장을 기준으로 단계별 목표 시장을 정의했습니다.
+  </p>
+
+  <div class="market-grid">
+    <div class="market-card">
+      <div class="market-label">TAM</div>
+      <div class="market-value">4,520억</div>
+      <div class="market-text">전국 공공화장실 데이터 통합 시장</div>
+    </div>
+
+    <div class="market-card">
+      <div class="market-label">SAM</div>
+      <div class="market-value">65억</div>
+      <div class="market-text">수도권 및 주요 광역시 유료 시장</div>
+    </div>
+
+    <div class="market-card">
+      <div class="market-label">SOM</div>
+      <div class="market-value">₩2.5~4.5억</div>
+      <div class="market-text">1~2년 내 실제 확보 가능한 계약 규모</div>
+    </div>
+  </div>
+
+  <div class="market-formula">
+    <div class="formula-title">계산 방법 예시</div>
+    <p class="formula-line">
+      <b>TAM</b> = 226 × 20억
+    </p>
+    <p class="formula-line">
+      <b>SAM</b> = 65 × 1억
+    </p>
+    <p class="formula-line">
+      <b>SOM</b> = 10 × 4,500만원
+    </p>
+  </div>
+</section>
+<section id="how-it-works"  class="how">
+  <h3 class="section-title">How It Works</h3>
+  <p class="section-desc">
+    방문 인증부터 AI 분석, 대시보드 제공까지의 전체 흐름입니다.
+  </p>
+
+  <div class="how-grid">
+
+    <div class="how-step">
+      <div class="step-number">01</div>
+      <h4>QR/NFC 방문 인증</h4>
+      <p>현장 방문자만 인증 가능한 구조로 신뢰도 확보</p>
+    </div>
+
+    <div class="how-step">
+      <div class="step-number">02</div>
+      <h4>리뷰 데이터 수집</h4>
+      <p>실사용자 기반 위생·안전 평가 데이터 축적</p>
+    </div>
+
+    <div class="how-step">
+      <div class="step-number">03</div>
+      <h4>AI 자동 정제</h4>
+      <p>허위·이상 데이터 필터링 및 감성 분석</p>
+    </div>
+
+    <div class="how-step">
+      <div class="step-number">04</div>
+      <h4>위생·안전 지수화</h4>
+      <p>데이터를 수치화하여 이해하기 쉽게 시각화</p>
+    </div>
+
+    <div class="how-step">
+      <div class="step-number">05</div>
+      <h4>관리자 대시보드 제공</h4>
+      <p>지자체·시설관리 업체용 통합 관리 시스템</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="competitive" class="comparison">
+  <h3 class="section-title">Competitive Advantage</h3>
+  <p class="section-desc">
+    기존 화장실 지도 서비스와의 차별성 비교
+  </p>
+
+  <div class="table-wrapper">
+    <table class="compare-table">
+      <thead>
+        <tr>
+          <th>구분</th>
+          <th>기존 지도 서비스</th>
+          <th>HappyToilet</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>리뷰 방식</td>
+          <td>익명 리뷰</td>
+          <td>QR/NFC 방문 인증 리뷰</td>
+        </tr>
+        <tr>
+          <td>데이터 신뢰도</td>
+          <td>허위 리뷰 가능</td>
+          <td>실방문 기반 신뢰 데이터</td>
+        </tr>
+        <tr>
+          <td>관리 방식</td>
+          <td>민원 발생 후 대응</td>
+          <td>AI 기반 선제적 감지</td>
+        </tr>
+        <tr>
+          <td>제공 대상</td>
+          <td>일반 사용자 중심</td>
+          <td>지자체·시설관리 기관</td>
+        </tr>
+        <tr>
+          <td>지표 제공</td>
+          <td>단순 별점</td>
+          <td>위생·안전 지수 대시보드</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+<section id="roadmap" class="roadmap">
+  <h3 class="section-title">Roadmap</h3>
+  <p class="section-desc">파일럿 → 확장 → 수출까지 단계별 성장 계획</p>
+
+  <div class="roadmap-list">
+
+    <div class="roadmap-item">
+      <div class="roadmap-year">2026</div>
+      <div class="roadmap-box">
+        <h4>PoC / 파일럿</h4>
+        <ul>
+          <li>서울/수도권 1~2개 구 파일럿</li>
+          <li>방문 인증 리뷰 데이터 축적</li>
+          <li>관리자 대시보드 MVP 고도화</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="roadmap-item">
+      <div class="roadmap-year">2027</div>
+      <div class="roadmap-box">
+        <h4>전국 확장</h4>
+        <ul>
+          <li>지자체 계약 확장(다지역 적용)</li>
+          <li>시설관리(B2B) 리포트 상품화</li>
+          <li>위생·안전 지수 표준화</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="roadmap-item">
+      <div class="roadmap-year">2028</div>
+      <div class="roadmap-box">
+        <h4>글로벌 / 스마트시티</h4>
+        <ul>
+          <li>스마트시티·ODA 연계 진출</li>
+          <li>관광/안전 인사이트 데이터 사업</li>
+          <li>K-Toilet 브랜드 확장</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section id="team" class="team">
+  <h3 class="section-title">Team</h3>
+  <p class="section-desc">기획·개발·마케팅을 균형 있게 갖춘 실행 중심 팀</p>
+
+  <div class="team-grid">
+    <div class="team-card">
+      <div class="avatar">JY</div>
+      <h4>박재윤</h4>
+      <p class="role">UI/UX · 콘텐츠 디자인</p>
+    </div>
+
+    <div class="team-card">
+      <div class="avatar">SW</div>
+      <h4>정서완</h4>
+      <p class="role">Android/iOS 앱 개발 · QR/NFC 인증 시스템</p>
+    </div>
+
+    <div class="team-card">
+      <div class="avatar">MJ</div>
+      <h4>지민지</h4>
+      <p class="role">대외 커뮤니케이션 · 마케팅</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact">
+  <h3 class="section-title">Contact</h3>
+  <p class="section-desc">문의</p>
+
+  <div class="contact-box">
+    <div class="contact-item">
+      <span class="contact-label">Email</span>
+      <span class="contact-value">happytoilet0505@gmail.com</span>
+    </div>
+
+    <div class="contact-item">
+      <span class="contact-label">Instagram</span>
+      <span class="contact-value">@happytoilet_cau</span>
+    </div>
+
+    <div class="contact-actions">
+    <a class="btn"
+      href="https://mail.google.com/mail/?view=cm&fs=1&to=happytoilet0505@gmail.com&su=HappyToilet IR 문의">메일 보내기
+    </a>
+      <a class="btn ghost" href="./css/앱.html">데모 보기</a>
+    </div>
+  </div>
+</section>
+<section class="download">
+  <h3 class="section-title">Investor Materials</h3>
+  <p class="section-desc">
+    HappyToilet 사업계획서 다운로드
+  </p>
+
+  <a class="download-btn" 
+     href="BusinessProposal.pdf" 
+     download>
+     📄 사업계획서 다운로드
+  </a>
+</section>
+<footer>
+    © 2026 HappyToilet | Smart Public Sanitation Data Platform
+</footer>
 </body>
 </html>
